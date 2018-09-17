@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="preferenceTheme">@style/Theme.HA.PreferenceTheme</item>
+    </style>
+
+    <style name="Theme.HA.AppBarOverlay" parent="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="colorControlNormal">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.HA.PopupOverlay" parent="@style/ThemeOverlay.MaterialComponents.Light">
+        <item name="colorControlNormal">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.HA.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:background">@color/tablayout_background_color</item>
+        <item name="tabBackground">@drawable/tablayout_selector</item>
+        <item name="tabSelectedTextColor">#FFFFFF</item>
+        <item name="tabTextColor">#000000</item>
+    </style>
+
+    <style name="Theme.HA.PreferenceTheme" parent="@style/PreferenceFragment.Material">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+</resources>

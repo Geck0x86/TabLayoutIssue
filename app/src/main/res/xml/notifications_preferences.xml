@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Example Category">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="key_switch_example1"
+            android:summary="Switch example Preference"
+            android:title="Switch Example" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:enabled="false"
+            android:key="key_checkbox_example1"
+            android:title="Checkbox Example 1" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:enabled="false"
+            android:key="key_checkbox_example2"
+            android:title="Checkbox Example 2" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
